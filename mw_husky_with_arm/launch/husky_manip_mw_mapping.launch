@@ -8,6 +8,7 @@
     
     <!-- Adding Robot -->
     <include file="$(find husky_gazebo)/launch/husky_empty_world.launch" >
+      <arg name="world_name" value="$(find mw_husky_with_arm)/worlds/husky.world"/>
     </include>
     <!-- NAVIGATION -->
     <include file="$(find mw_husky_with_arm)/launch/secondary_launch/start_mw_mapping.launch">
