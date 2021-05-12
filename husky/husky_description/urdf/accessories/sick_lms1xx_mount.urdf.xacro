@@ -39,12 +39,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           <mesh filename="package://husky_description/meshes/accessories/lms1xx_mount.dae" />
         </geometry>
       </visual>
-      <collision>
+      <!-- <collision>
         <origin xyz="0 0 .0585" rpy="0 0 0" />
         <geometry>
           <box size=".1 .108 .117" />
         </geometry>
-      </collision>
+      </collision> -->
     </link>
 
     <joint name="${prefix}_laser_joint" type="fixed">
